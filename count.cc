@@ -6,7 +6,26 @@
 
 using namespace std;
 
+/**
+ *   @file: count.cc
+ * @author: Vignesh Pugazhenthi
+ *   @date: 12/2/2021
+ *  @brief: This program counts lines and characters the user inputs
+ */
+
+
+/**
+ * @brief: This function counts the number of sentences the user inputs
+ * @param: The parameter used is a string
+ * @return: Returns an integer of the amount of lines are shown
+ */
 int countLine(string word);
+
+/**
+ * @brief: This function counts the number of characters the user inputs
+ * @param: The parameter used is a string
+ * @return: Returns an integer of the amount of characters that are shown
+ */
 int countChar(string word);
 
 int main(int argc, char const *argv[]) {
